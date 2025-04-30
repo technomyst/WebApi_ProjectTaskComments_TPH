@@ -1,0 +1,13 @@
+﻿namespace WebApi_ProjectTaskComments.Models.Dto.Projects
+{
+    public class ProjectDto
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = null!;
+        public string Description { get; set; } = null!;
+
+        public DateTime? CreatedDate { get; set; }
+        public DateTime? LastUpdateDate { get; set; }
+
+    }
+}
